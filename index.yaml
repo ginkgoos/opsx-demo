@@ -1,0 +1,59 @@
+---
+# default settings for this package.
+# the following keys can be rewrite by distribution section:
+# * version/release
+# * provides
+# * conflicts
+# * obsoletes
+# * requires
+# * buildRequires
+default:
+  name: "opsx-demo"
+  noarch: false
+  version: "1.0.0"
+  vendor: "PowerPackageTool"
+  packager: "opsx@service.alibaba.com"
+  license: "Apache2"
+  group: "ppt"
+  url: https://opsx.alibaba.com/
+#  provides:
+#    - 
+#  conflicts:
+#    - something-package-conflicts
+#  obsoletes:
+#    - something-package-obsoletes
+#  requires:
+#    - something-package-requires
+#  buildRequires:
+#    - something-package-requires-when-build
+#  conffiles:
+#    - etc/something.conf
+  summary: "" # first line of description, if empty.
+  description: |
+    This is a demo project to show what a project should be to use the opsx auto-building service
+
+# rewrite default config by special distribution.
+# supports the following distributions by now:
+# * centos6/7
+# * ubuntu14/16/18
+# * debian7/8/9
+# * alios6/7
+distribution:
+  #centos6.x86_64:
+    #release: '1.centos6'
+  centos7.x86_64:
+    release: '1.centos7'
+  ubuntu16.amd64:
+    release: '1ubuntu16'
+  #ubuntu18.amd64:
+    #release: '1ubuntu18'
+
+# help you build a package that installs a service.
+# supports the following service managers:
+# * sysv, /etc/init.d/whatever
+# * upstart
+# * systemd
+# * runit
+#service:
+#    - name: -service
+#      path: /usr/bin/somethingd

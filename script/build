@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# enable debug
+set -x
+[ -d "../vars" ] || mkdir "../vars"
+git log | grep commit | wc -l > ../vars/gitcount
+
+make  DESTDIR=""  || exit 1
+
+mkdir -p ${DESTDIR}/usr/local/opsx-demo/bin
+install timeout ${DESTDIR}/usr/local/opsx-demo/bin/
+
+
