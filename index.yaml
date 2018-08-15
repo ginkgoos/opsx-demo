@@ -42,9 +42,9 @@ distribution:
   #centos6.x86_64:
     #release: '1.centos6'
   centos7.x86_64:
-    release: '1.centos7'
+    release: '2.centos7'
   ubuntu16.amd64:
-    release: '1ubuntu16'
+    release: '2ubuntu16'
   #ubuntu18.amd64:
     #release: '1ubuntu18'
 
