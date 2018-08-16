@@ -3,7 +3,7 @@
 # enable debug
 set -x
 [ -d "../vars" ] || mkdir "../vars"
-git log | grep Author | wc -l > ../vars/gitcount
+git log --oneline | wc -l > ../vars/gitcount
 
 make  DESTDIR=""  || exit 1
 

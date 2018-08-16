@@ -29,6 +29,7 @@ default:
 #  conffiles:
 #    - etc/something.conf
   summary: "" # first line of description, if empty.
+  vars.gitcount: "vars/gitcount"
   description: |
     This is a demo project to show what a project should be to use the opsx auto-building service
 
@@ -42,9 +43,9 @@ distribution:
   #centos6.x86_64:
     #release: '1.centos6'
   centos7.x86_64:
-    release: '2.centos7'
+    release: "{{.gitcount}}{{.dist}}"
   ubuntu16.amd64:
-    release: '2ubuntu16'
+    release: "{{.gitcount}}{{.dist}}"
   #ubuntu18.amd64:
     #release: '1ubuntu18'
 
