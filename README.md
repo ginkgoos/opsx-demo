@@ -7,3 +7,6 @@ If you config the webhook, then after each push, your project will be built auto
 
 2018-08-20
 Just add one line to the readme file, to test the auto building feature.
+
+2018-08-20
+Adding DingTalk notify support
