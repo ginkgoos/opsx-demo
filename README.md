@@ -4,3 +4,6 @@ This is a demo project to show what a project should be to use the opsx auto-bui
 
 2018-08-16 17:30
 If you config the webhook, then after each push, your project will be built automatically
+
+2018-08-20
+Just add one line to the readme file, to test the auto building feature.
