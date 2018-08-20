@@ -10,3 +10,6 @@ Just add one line to the readme file, to test the auto building feature.
 
 2018-08-20
 Adding DingTalk notify support
+
+2018-08-20
+Adding notify for git check and auto building
