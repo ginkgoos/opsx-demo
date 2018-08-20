@@ -16,3 +16,6 @@ Adding notify for git check and auto building
 
 2018-08-20
 Adding new robot
+
+2018-08-20 17:37
+Still for test
