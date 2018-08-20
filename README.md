@@ -13,3 +13,6 @@ Adding DingTalk notify support
 
 2018-08-20
 Adding notify for git check and auto building
+
+2018-08-20
+Adding new robot
