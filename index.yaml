@@ -40,14 +40,14 @@ default:
 # * debian7/8/9
 # * alios6/7
 distribution:
-  #centos6.x86_64:
-    #release: '1.centos6'
+  centos6.x86_64:
+    release: "{{.gitcount}}.{{.dist}}"
   centos7.x86_64:
-    release: "{{.gitcount}}{{.dist}}"
+    release: "{{.gitcount}}.{{.dist}}"
   ubuntu16.amd64:
     release: "{{.gitcount}}{{.dist}}"
-  #ubuntu18.amd64:
-    #release: '1ubuntu18'
+  ubuntu18.amd64:
+    release: "{{.gitcount}}{{.dist}}"
 
 # help you build a package that installs a service.
 # supports the following service managers:
