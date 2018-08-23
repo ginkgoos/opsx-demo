@@ -28,3 +28,6 @@ Test one more time
 
 2018-08-23 10:40 
 Test for new day
+
+2018-08-23 10:42 
+Test for new day 1
