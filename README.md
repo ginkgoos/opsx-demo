@@ -52,3 +52,7 @@ Test for new day 6
 
 2018-08-23 17：20
 Test for new day 7
+
+
+2018-08-23 17：30
+Test for new day 8
