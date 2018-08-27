@@ -80,3 +80,6 @@ Test for new day 13
 2018-08-27 16:52
 Test Monday 1
 
+2018-08-27 17:55
+Test Monday 2
+
