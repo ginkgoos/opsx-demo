@@ -13,7 +13,7 @@ default:
   version: "1.0.1"
   vendor: "PowerPackageTool"
   packager: "opsx@service.alibaba.com"
-  license: "Apache2"
+  license: "none"
   group: "ppt"
   url: https://opsx.alibaba.com/
 #  provides:
