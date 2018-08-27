@@ -31,8 +31,7 @@ default:
   summary: "" # first line of description, if empty.
   vars.gitcount: "vars/gitcount"
   description: |
-    This is a demo project to show what a project should be to use the opsx auto-building service
-    you can use it to build an rpm or debian pkg easily
+    This is a demo project to show what a project should be to use the opsx auto-building service, you can use it to build an rpm or debian pkg easily
 
 # rewrite default config by special distribution.
 # supports the following distributions by now:
