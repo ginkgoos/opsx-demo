@@ -30,6 +30,7 @@ default:
 #    - etc/something.conf
   summary: "" # first line of description, if empty.
   vars.gitcount: "vars/gitcount"
+  vars.gitcommit: "vars/gitcommit"
   description: |
     This is a demo project to show what a project should be to use the opsx auto-building service, you can use it to build an rpm or debian pkg easily
 

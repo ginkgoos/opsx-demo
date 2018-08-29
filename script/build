@@ -4,6 +4,7 @@
 set -x
 [ -d "../vars" ] || mkdir "../vars"
 git log --oneline | wc -l > ../vars/gitcount
+git log -1 | head -1 | awk '{print $2}' > ../vars/gitcommit
 
 make  DESTDIR=""  || exit 1
 
