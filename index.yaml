@@ -10,7 +10,7 @@
 default:
   name: "opsx-demo"
   noarch: false
-  version: "1.0.1"
+  version: "2.0.0"
   vendor: "PowerPackageTool"
   packager: "opsx@service.alibaba.com"
   license: "none"
