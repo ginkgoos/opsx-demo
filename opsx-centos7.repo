@@ -1,0 +1,11 @@
+##Created at 2018-09-18 17:57:49
+
+### For centos, please copy this file to dir: /etc/yum.repos.d/
+
+
+[opsx-centos7]
+name=opsx-centos7
+baseurl=https://mirrors.aliyun.com/opensource/149994924900000037/opsx/centos7
+enable=1
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/opensource/149994924900000037/opsx/OPSX-REPO-GPG
